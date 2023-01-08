@@ -1,0 +1,69 @@
+.content {
+  padding: 9rem 9rem 3rem;
+}
+
+.about {
+  padding-left: .2rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.aboutImg {
+  width: 30%;
+  min-width: 320px;
+  padding: 4rem 1rem 5rem 1rem;
+
+ 
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 30%;
+  }
+}
+
+.title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 2rem;
+  padding: 20px
+}
+
+.skills {
+  @extend .title;
+  font-size: 2.2rem;
+  padding-top: 3rem;
+}
+
+.githubActivity {
+  @extend .title;
+  font-size: 2.2rem;
+  padding-top: 3rem;
+}
+
+.purple {
+  color: #e69a28;;
+}
+
+
+@media (max-width: 925px) {
+  .content {
+    padding: 6rem 3rem 1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about {
+    flex-wrap: wrap;
+  }
+}
+
+.hr{
+  color: #e69a28;
+  background-color: #e69a28;
+}

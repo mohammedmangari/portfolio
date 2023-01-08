@@ -1,0 +1,43 @@
+.content {
+  padding: 9rem 9rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.containerTitle{
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.title {
+  color: var(--txt);
+  font-size: 2.3rem;
+  font-weight: 500;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.subtitle {
+  margin-top: .5rem;
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+  border-radius: 50%;
+}
+
+.purple {
+  color: rgb(228, 133, 9);
+}
+
+@media (max-width: 925px) {
+  .content {
+    padding: 9rem 3rem 1rem;
+  }
+}

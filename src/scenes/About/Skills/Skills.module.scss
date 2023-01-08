@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.techIcon {
+  font-size: 4rem;
+  margin: 15px;
+  padding: 2rem 4rem;
+  opacity: 0.93;
+  border: 1.7px solid #e69a28;
+  vertical-align: middle;
+  text-align: center;
+  display: table;
+  box-shadow: 4px 5px 4px 3px rgba(236, 175, 4, 0.137);
+  overflow: hidden;
+  transition: all 0.4s ease 0s;
+  line-height: 0;
+  border-radius: 45%;
+
+  &:hover {
+    transform: scale(1.05);
+    background-color: rgba(235, 197, 128, 0.514);
+    border: 2.2px solid rgba(243, 182, 14, 0.883);
+  }
+}
